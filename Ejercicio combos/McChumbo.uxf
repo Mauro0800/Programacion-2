@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>504</x><y>300</y><w>336</w><h>168</h></coordinates><panel_attributes>/ComponenteCombo/
+--
+
+--
+/+ getPrecio(): double/
+/+ getNombre(): String/
++ add(ComponenteCombo): void
++ remove(ComponenteCombo): void
++ get(int): ComponenteCombo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>768</x><y>588</y><w>300</w><h>216</h></coordinates><panel_attributes>Combo
+--
+/_+ DESCUENTO: int = 10_/
+- precio: double
+- nombre: string
+--
+ + getPrecio(): double
+ + getNombre(): String
+ + add(ComponenteCombo): void
+ + remove(ComponenteCombo): void
+ + get(int): ComponenteCombo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>288</x><y>588</y><w>300</w><h>156</h></coordinates><panel_attributes>ElementoCombo
+--
+- precio: double
+- nombre: string
+--
+ + getPrecio(): double
+ + getNombre(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>72</x><y>300</y><w>204</w><h>120</h></coordinates><panel_attributes>Cliente
+--
+
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>696</x><y>456</y><w>180</w><h>156</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;130;110</additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>456</y><w>192</w><h>156</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>140;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>828</x><y>372</y><w>180</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+
+m2=1..*</panel_attributes><additional_attributes>130;180;130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>348</y><w>264</w><h>60</h></coordinates><panel_attributes>lt=-
+
+</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>864</x><y>72</y><w>252</w><h>120</h></coordinates><panel_attributes>Ticket
+--
+- precioTotal: double
+--
++ getPrecioTotal(): double
++ imrpimirTicket(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>696</x><y>108</y><w>192</w><h>216</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>140;10;10;10;10;160</additional_attributes></element></diagram>
