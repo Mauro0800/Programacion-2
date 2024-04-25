@@ -1,0 +1,48 @@
+<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLClass</id><coordinates><x>715</x><y>130</y><w>273</w><h>247</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+/Estado/
+--
+/+ darDeComer(): Estado/
+/+ darDeTomar(): Estado/
+/+ hacerMimos(): Estado/
+/+ pegar(): Estado/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>299</x><y>533</y><w>273</w><h>247</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Feliz
+--
+
+--
++ darDeComer(): Estado
++ darDeTomar(): Estado
++ hacerMimos(): Estado
++ pegar(): Estado</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>52</x><y>130</y><w>260</w><h>247</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Tamagochi
+--
+- nombre
+
+--
++ botonAlimentar(): void
++ botonTomar(): void
++ botonMimos(): void
++ botonPegar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>585</x><y>533</y><w>273</w><h>247</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Triste
+--
+
+--
++ darDeComer(): Estado
++ darDeTomar(): Estado
++ hacerMimos(): Estado
++ pegar(): Estado</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1157</x><y>533</y><w>273</w><h>247</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Hambriento
+--
+
+--
++ darDeComer(): Estado
++ darDeTomar(): Estado
++ hacerMimos(): Estado
++ pegar(): Estado</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>871</x><y>533</y><w>273</w><h>247</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Sediento
+--
+
+--
++ darDeComer(): Estado
++ darDeTomar(): Estado
++ hacerMimos(): Estado
++ pegar(): Estado</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>299</x><y>234</y><w>442</w><h>39</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;320;10</additional_attributes></element><element><id>Relation</id><coordinates><x>429</x><y>364</y><w>455</w><h>195</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>330;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>715</x><y>364</y><w>169</w><h>195</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>845</x><y>364</y><w>481</w><h>195</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;350;130</additional_attributes></element><element><id>Relation</id><coordinates><x>845</x><y>364</y><w>195</w><h>195</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;130</additional_attributes></element></diagram>
