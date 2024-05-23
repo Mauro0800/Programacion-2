@@ -1,0 +1,37 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>979</x><y>605</y><w>264</w><h>209</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+CategoriaC
+--
+_+ BONO: float = 500_
+--
++ calcularSueldo(Empleado): float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>242</y><w>231</w><h>209</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+ICategorias
+--
+calcularSueldo(Empleado): float
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>319</x><y>605</y><w>275</w><h>209</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+CategoriaA
+--
++ calcularSueldo(Empleado): float
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>429</x><y>242</y><w>176</w><h>209</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Contexto
+--
+
+--
++ obtenerSueldo(): float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>605</y><w>264</w><h>209</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+CategoriaB
+--
++ calcularSueldo(Empleado): float
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>594</x><y>341</y><w>121</w><h>33</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>473</x><y>440</y><w>341</w><h>187</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>290;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>803</x><y>440</y><w>33</w><h>187</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>Relation</id><coordinates><x>836</x><y>440</y><w>319</w><h>187</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;270;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>77</x><y>231</y><w>286</w><h>242</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Empleado
+--
+- nombre: String
+- diaIngreso: int
+- cantHijos: int
+- sueldoBrutoAnual: float
+--
++ getSueldo(): float
++ cambioCatA(): void
++ cambioCatB(): void
++ cambioCatC(): void
++ getHijos(): int
++ empiezaConVocal(): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>341</y><w>99</w><h>33</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element></diagram>
