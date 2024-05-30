@@ -1,0 +1,36 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>99</x><y>231</y><w>264</w><h>143</h></coordinates><panel_attributes>Mapeador
+--
++ campo: String
+--
++ Mapeador(BingMaps)
++ getDireccion(x, y): String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>539</x><y>231</y><w>297</w><h>143</h></coordinates><panel_attributes>BingMaps
+--
++ campo: String
+--
++ BingMaps()
++ obtenerDireccion(decimal, decimal): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>968</x><y>484</y><w>297</w><h>154</h></coordinates><panel_attributes>GoogleMaps
+--
++ campo: String
+--
++ GoogleMaps()
++ getAdress(double, double): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>539</x><y>473</y><w>297</w><h>165</h></coordinates><panel_attributes>AdaptadorGoogleBing
+--
+
+--
++ AdaptadorGoogleBing (GoogleMaps)
++ obtenerDireccion(decimal, decimal): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>352</x><y>308</y><w>209</w><h>55</h></coordinates><panel_attributes>lt=&lt;-
+
+m1=1
+- maps</panel_attributes><additional_attributes>170;20;10;20</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>627</x><y>165</y><w>132</w><h>44</h></coordinates><panel_attributes>lt=.
+Objetivo
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>638</x><y>649</y><w>132</w><h>44</h></coordinates><panel_attributes>lt=.
+Adaptador
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>165</x><y>165</y><w>132</w><h>44</h></coordinates><panel_attributes>lt=.
+Cliente
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1056</x><y>649</y><w>132</w><h>44</h></coordinates><panel_attributes>lt=.
+ClaseAdaptada
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>825</x><y>561</y><w>165</w><h>55</h></coordinates><panel_attributes>lt=&lt;-
+
+m1=1
+- maps</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>671</x><y>363</y><w>33</w><h>132</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>
