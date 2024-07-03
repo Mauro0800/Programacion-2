@@ -1,0 +1,64 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>1116</x><y>576</y><w>252</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+DisminuirReciever
+--
+
+--
++ Deshacer(): void
++ Aplicar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>456</y><w>252</w><h>192</h></coordinates><panel_attributes>&lt;&lt;Class&gt;&gt;
+TextoReciever
+--
+- texto: string
+- tamanioTexto: int
+- esNegrita: bool
+- esItalica: bool
+- esSubrayado: bool
+--
++ Deshacer(): void
++ Aplicar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1116</x><y>708</y><w>252</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+AumentarReciever
+--
+
+--
++ Deshacer(): void
++ Aplicar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>24</x><y>348</y><w>252</w><h>84</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+/Comando/
+--
++ Ejecutar(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1116</x><y>444</y><w>252</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+NegritaReciever
+--
+
+--
++ Deshacer(): void
++ Aplicar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1116</x><y>180</y><w>252</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+SubrayadoReciever
+--
+
+--
++ Deshacer(): void
++ Aplicar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>660</x><y>204</y><w>252</w><h>96</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+/Invoker/
+--
++ setCommand(Comando): void
++ Invoke(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>456</y><w>252</w><h>84</h></coordinates><panel_attributes>&lt;&lt;Class&gt;&gt;
+ComandoAplicar
+--
++ Ejecutar(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>564</y><w>252</w><h>84</h></coordinates><panel_attributes>&lt;&lt;Class&gt;&gt;
+ComandoDeshacer
+--
++ Ejecutar(): void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>204</y><w>252</w><h>96</h></coordinates><panel_attributes>&lt;&lt;class&gt;&gt;
+ControladorInvokerTexto
+--
++ setCommand(Comando): void
++ Invoke(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>240</y><w>180</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>240</y><w>144</w><h>132</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>132</x><y>420</y><w>156</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70;110;70</additional_attributes></element><element><id>Relation</id><coordinates><x>132</x><y>420</y><w>156</w><h>216</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;160;110;160</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>576</y><w>180</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>130;10;100;10;100;30;10;30</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>492</y><w>180</w><h>108</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>130;60;100;60;100;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1116</x><y>312</y><w>252</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+ItalicaReciever
+--
+
+--
++ Deshacer(): void
++ Aplicar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>384</y><w>552</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+m1=*</panel_attributes><additional_attributes>10;10;440;10;440;60</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>240</y><w>240</w><h>348</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;270;90;270;90;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>372</y><w>240</w><h>216</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;160;90;160;90;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>504</y><w>240</w><h>84</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;90;50;90;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>552</y><w>240</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10;90;80;180;80</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>552</y><w>240</w><h>252</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;10;90;190;180;190</additional_attributes></element></diagram>
